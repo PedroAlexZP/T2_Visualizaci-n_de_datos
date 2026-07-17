@@ -1,0 +1,2090 @@
+{
+  "1": {
+    "month": 1,
+    "month_label": "Enero",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 527773.23,
+        "ventas_2024": 746138.98,
+        "pct_change": 41.37491967904473,
+        "abs_change": 218365.75
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 311791518.36,
+        "ventas_2024": 367426167.5,
+        "pct_change": 17.84354155386717,
+        "abs_change": 55634649.139999986
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 255577493.36,
+        "ventas_2024": 294413786.61,
+        "pct_change": 15.195505965502281,
+        "abs_change": 38836293.25
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 158867861.38,
+        "ventas_2024": 171707240.15,
+        "pct_change": 8.081797450076564,
+        "abs_change": 12839378.77000001
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 78789828.81,
+        "ventas_2024": 84469683.58,
+        "pct_change": 7.20886801733869,
+        "abs_change": 5679854.769999996
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 525578439.53,
+        "ventas_2024": 559749047.49,
+        "pct_change": 6.501523919161753,
+        "abs_change": 34170607.96000004
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 88395008.44,
+        "ventas_2024": 93267764.69999999,
+        "pct_change": 5.512478980425097,
+        "abs_change": 4872756.25999999
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 206202649.39,
+        "ventas_2024": 217563511.91,
+        "pct_change": 5.5095618575262435,
+        "abs_change": 11360862.52000001
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1426657572.31,
+        "ventas_2024": 1503637077.43,
+        "pct_change": 5.395794100427146,
+        "abs_change": 76979505.12000012
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 172526000.6,
+        "ventas_2024": 180483094.89999998,
+        "pct_change": 4.6121131147347665,
+        "abs_change": 7957094.299999982
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 509714635.71000004,
+        "ventas_2024": 529707697.32,
+        "pct_change": 3.922402891600492,
+        "abs_change": 19993061.609999955
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 199765105.56,
+        "ventas_2024": 202639605.62,
+        "pct_change": 1.438940025056898,
+        "abs_change": 2874500.0600000024
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 312285563.68,
+        "ventas_2024": 315999369.97,
+        "pct_change": 1.1892340607219265,
+        "abs_change": 3713806.2900000215
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 385773780.14,
+        "ventas_2024": 384513552.62,
+        "pct_change": -0.3266752653699367,
+        "abs_change": -1260227.519999981
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 7962703684.04,
+        "ventas_2024": 7798316648.19,
+        "pct_change": -2.064462554088112,
+        "abs_change": -164387035.85000038
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 809627458.01,
+        "ventas_2024": 792518551.9,
+        "pct_change": -2.1131825434938123,
+        "abs_change": -17108906.110000014
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2642837495.0099998,
+        "ventas_2024": 2507721930.4,
+        "pct_change": -5.112518831184829,
+        "abs_change": -135115564.60999966
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 457878523.15999997,
+        "ventas_2024": 430167698.07,
+        "pct_change": -6.052003684024457,
+        "abs_change": -27710825.089999974
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 37839271.26,
+        "ventas_2024": 34609834.57,
+        "pct_change": -8.53461650413401,
+        "abs_change": -3229436.6899999976
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 264268165.17000002,
+        "ventas_2024": 228609576.78,
+        "pct_change": -13.493334835492329,
+        "abs_change": -35658588.390000015
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 269873.43,
+        "ventas_2024": 193987.46,
+        "pct_change": -28.119096422348804,
+        "abs_change": -75885.97
+      }
+    ]
+  },
+  "2": {
+    "month": 2,
+    "month_label": "Febrero",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 480313.01,
+        "ventas_2024": 802739.0700000001,
+        "pct_change": 67.12832117539354,
+        "abs_change": 322426.06000000006
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 29930198.360000003,
+        "ventas_2024": 36752233.75,
+        "pct_change": 22.79315127799907,
+        "abs_change": 6822035.389999997
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 173868505.45000002,
+        "ventas_2024": 209700372.85999998,
+        "pct_change": 20.608601492985322,
+        "abs_change": 35831867.40999997
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 103891.34,
+        "ventas_2024": 121404.09999999999,
+        "pct_change": 16.856804426624965,
+        "abs_change": 17512.759999999995
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 339596311.95,
+        "ventas_2024": 388862979.24,
+        "pct_change": 14.507421181079769,
+        "abs_change": 49266667.29000002
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 277040553.48,
+        "ventas_2024": 315880422.94,
+        "pct_change": 14.019561025315339,
+        "abs_change": 38839869.45999998
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 147753281.1,
+        "ventas_2024": 167839175.79000002,
+        "pct_change": 13.594212284467522,
+        "abs_change": 20085894.690000027
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 69379022.73,
+        "ventas_2024": 78539649.06,
+        "pct_change": 13.203740798785965,
+        "abs_change": 9160626.329999998
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 195674678.74,
+        "ventas_2024": 218577020.95,
+        "pct_change": 11.704295291283522,
+        "abs_change": 22902342.20999998
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 205371857.9,
+        "ventas_2024": 221890961.17,
+        "pct_change": 8.043508706067941,
+        "abs_change": 16519103.26999998
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 640875964.27,
+        "ventas_2024": 689002979.11,
+        "pct_change": 7.509567767113856,
+        "abs_change": 48127014.84000003
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 779804034.94,
+        "ventas_2024": 837226815.32,
+        "pct_change": 7.363744967595383,
+        "abs_change": 57422780.379999995
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 82655727.5,
+        "ventas_2024": 88187310.46000001,
+        "pct_change": 6.692316585078763,
+        "abs_change": 5531582.960000008
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 464054328.15,
+        "ventas_2024": 493763993.4,
+        "pct_change": 6.402195486127803,
+        "abs_change": 29709665.25
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 561933993.4399999,
+        "ventas_2024": 584524447.05,
+        "pct_change": 4.020125828606255,
+        "abs_change": 22590453.610000014
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 7382253208.39,
+        "ventas_2024": 7673428543.24,
+        "pct_change": 3.944261008537013,
+        "abs_change": 291175334.8499994
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1389361053.29,
+        "ventas_2024": 1435293824.3999999,
+        "pct_change": 3.3060356054483693,
+        "abs_change": 45932771.109999895
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 350920429.91999996,
+        "ventas_2024": 359832816.52,
+        "pct_change": 2.5397172236543195,
+        "abs_change": 8912386.600000024
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 370994779.58,
+        "ventas_2024": 369528459.31000006,
+        "pct_change": -0.39524013563207816,
+        "abs_change": -1466320.2699999213
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2519692492.47,
+        "ventas_2024": 2501065588.25,
+        "pct_change": -0.739253074558326,
+        "abs_change": -18626904.21999979
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 341160172.82,
+        "ventas_2024": 236507405.69,
+        "pct_change": -30.675552267707403,
+        "abs_change": -104652767.13
+      }
+    ]
+  },
+  "3": {
+    "month": 3,
+    "month_label": "Marzo",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 665290.55,
+        "ventas_2024": 867879.49,
+        "pct_change": 30.45119760080764,
+        "abs_change": 202588.93999999994
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 417090859.91,
+        "ventas_2024": 538779970.76,
+        "pct_change": 29.175683896851172,
+        "abs_change": 121689110.84999996
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 86995196.92,
+        "ventas_2024": 101829544.23,
+        "pct_change": 17.051915318545156,
+        "abs_change": 14834347.310000002
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 657405829.0600001,
+        "ventas_2024": 758778717.99,
+        "pct_change": 15.420138436397687,
+        "abs_change": 101372888.92999995
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 170622576.81,
+        "ventas_2024": 194601559.09,
+        "pct_change": 14.053815578405107,
+        "abs_change": 23978982.28
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 319332680.99,
+        "ventas_2024": 361449477.08,
+        "pct_change": 13.18900275393951,
+        "abs_change": 42116796.089999974
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 227422016.19000003,
+        "ventas_2024": 254708810.5,
+        "pct_change": 11.998308152893685,
+        "abs_change": 27286794.309999973
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 81258179.17,
+        "ventas_2024": 89858049.98,
+        "pct_change": 10.583390986411642,
+        "abs_change": 8599870.810000002
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 322671907.47999996,
+        "ventas_2024": 353334780.46,
+        "pct_change": 9.502802155747192,
+        "abs_change": 30662872.98000002
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 37119748.22,
+        "ventas_2024": 39906716.21,
+        "pct_change": 7.508046588792304,
+        "abs_change": 2786967.990000002
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 226883073.78,
+        "ventas_2024": 243211138.42999998,
+        "pct_change": 7.196686988573105,
+        "abs_change": 16328064.649999976
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 8407492741.62,
+        "ventas_2024": 8855632306.53,
+        "pct_change": 5.3302402830698234,
+        "abs_change": 448139564.9100008
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 231377.73,
+        "ventas_2024": 239495.27000000002,
+        "pct_change": 3.5083497448090655,
+        "abs_change": 8117.540000000008
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 570258501.4300001,
+        "ventas_2024": 573462646.78,
+        "pct_change": 0.5618759460779766,
+        "abs_change": 3204145.3499999046
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 836938489.8,
+        "ventas_2024": 836413742.8900001,
+        "pct_change": -0.0626983842176077,
+        "abs_change": -524746.9099998474
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 846142227.23,
+        "ventas_2024": 838090992.7199999,
+        "pct_change": -0.9515225987901922,
+        "abs_change": -8051234.51000011
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 420146166.58000004,
+        "ventas_2024": 408731771.14,
+        "pct_change": -2.716767722269969,
+        "abs_change": -11414395.440000057
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2963368089.23,
+        "ventas_2024": 2872728013.88,
+        "pct_change": -3.0586843288020886,
+        "abs_change": -90640075.3499999
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1514708242.95,
+        "ventas_2024": 1455593570.84,
+        "pct_change": -3.9027101347828004,
+        "abs_change": -59114672.11000013
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 288990558.84000003,
+        "ventas_2024": 276973631.04,
+        "pct_change": -4.158242348205291,
+        "abs_change": -12016927.800000012
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 384907862.73,
+        "ventas_2024": 265412048.35,
+        "pct_change": -31.045303551988578,
+        "abs_change": -119495814.38000003
+      }
+    ]
+  },
+  "4": {
+    "month": 4,
+    "month_label": "Abril",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 539600.78,
+        "ventas_2024": 789745.29,
+        "pct_change": 46.35732920919796,
+        "abs_change": 250144.51
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 311000568.28000003,
+        "ventas_2024": 380327458.64,
+        "pct_change": 22.291563884726916,
+        "abs_change": 69326890.35999995
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 30655640.020000003,
+        "ventas_2024": 36768761.01,
+        "pct_change": 19.941260355392163,
+        "abs_change": 6113120.989999995
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 261649264.58,
+        "ventas_2024": 309513574.67,
+        "pct_change": 18.293309620736714,
+        "abs_change": 47864310.09
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 604719883.43,
+        "ventas_2024": 714894576.0799999,
+        "pct_change": 18.219128503776638,
+        "abs_change": 110174692.64999998
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1402826516.8899999,
+        "ventas_2024": 1624192182.48,
+        "pct_change": 15.779974424831758,
+        "abs_change": 221365665.59000015
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 209010218.29,
+        "ventas_2024": 238427740.92000002,
+        "pct_change": 14.074681549388867,
+        "abs_change": 29417522.630000025
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 214611184.72,
+        "ventas_2024": 241248779.45000002,
+        "pct_change": 12.412025386632896,
+        "abs_change": 26637594.73000002
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 215491816.38,
+        "ventas_2024": 234203775.46,
+        "pct_change": 8.68337340801991,
+        "abs_change": 18711959.080000013
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 7977557550.240001,
+        "ventas_2024": 8606701705.69,
+        "pct_change": 7.886425782426006,
+        "abs_change": 629144155.4499998
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 167331465.63,
+        "ventas_2024": 178931581.99,
+        "pct_change": 6.932417830875851,
+        "abs_change": 11600116.360000014
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 521957700.94,
+        "ventas_2024": 548007845.42,
+        "pct_change": 4.990853556348711,
+        "abs_change": 26050144.47999996
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 816053853.4,
+        "ventas_2024": 853517967.51,
+        "pct_change": 4.590887470711626,
+        "abs_change": 37464114.110000014
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2649347612.97,
+        "ventas_2024": 2726006834.35,
+        "pct_change": 2.8935131428096286,
+        "abs_change": 76659221.38000011
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 86623788.05999999,
+        "ventas_2024": 88154678.91,
+        "pct_change": 1.767286889993355,
+        "abs_change": 1530890.850000009
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 322718212.45,
+        "ventas_2024": 326821355.09999996,
+        "pct_change": 1.2714320083920558,
+        "abs_change": 4103142.649999976
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 85811490.99,
+        "ventas_2024": 84727332.93,
+        "pct_change": -1.2634182759117067,
+        "abs_change": -1084158.0599999875
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 405636608.79,
+        "ventas_2024": 397014219.95,
+        "pct_change": -2.125643655714488,
+        "abs_change": -8622388.840000033
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 665056938.87,
+        "ventas_2024": 648075786.4200001,
+        "pct_change": -2.5533381365590513,
+        "abs_change": -16981152.44999993
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 455826587.2,
+        "ventas_2024": 344996492.73999995,
+        "pct_change": -24.31409171211241,
+        "abs_change": -110830094.46000004
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 468457.13999999996,
+        "ventas_2024": 184639.85,
+        "pct_change": -60.58554044026311,
+        "abs_change": -283817.2899999999
+      }
+    ]
+  },
+  "5": {
+    "month": 5,
+    "month_label": "Mayo",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 603229.19,
+        "ventas_2024": 789089.29,
+        "pct_change": 30.810859799407268,
+        "abs_change": 185860.1000000001
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 74539306.15,
+        "ventas_2024": 92640934.61,
+        "pct_change": 24.284675287388616,
+        "abs_change": 18101628.459999993
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 90241129.32000001,
+        "ventas_2024": 104962647.07,
+        "pct_change": 16.313534483590818,
+        "abs_change": 14721517.749999985
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1479106394.82,
+        "ventas_2024": 1714457235.67,
+        "pct_change": 15.911691117976757,
+        "abs_change": 235350840.85000014
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 162798126.56,
+        "ventas_2024": 186672319.53,
+        "pct_change": 14.66490645468273,
+        "abs_change": 23874192.97
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 313858660.73,
+        "ventas_2024": 354528660.45,
+        "pct_change": 12.958061958655568,
+        "abs_change": 40669999.71999997
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 325473235.45,
+        "ventas_2024": 355629969.41,
+        "pct_change": 9.265503480894603,
+        "abs_change": 30156733.96000004
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 186311434.3,
+        "ventas_2024": 202972699.22,
+        "pct_change": 8.942695859005571,
+        "abs_change": 16661264.919999987
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 225730371.78,
+        "ventas_2024": 240754880.54999998,
+        "pct_change": 6.655953583704314,
+        "abs_change": 15024508.76999998
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 8418925797.9800005,
+        "ventas_2024": 8715110190.85,
+        "pct_change": 3.518078196402028,
+        "abs_change": 296184392.8699999
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 760574300.05,
+        "ventas_2024": 782555078.97,
+        "pct_change": 2.89002388307823,
+        "abs_change": 21980778.920000076
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 648449859.11,
+        "ventas_2024": 663192884.8,
+        "pct_change": 2.273579904888066,
+        "abs_change": 14743025.689999938
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 845348932.01,
+        "ventas_2024": 857344649.55,
+        "pct_change": 1.4190255746201215,
+        "abs_change": 11995717.539999962
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 227700070.10999998,
+        "ventas_2024": 229893111.41,
+        "pct_change": 0.9631271957626417,
+        "abs_change": 2193041.300000012
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 442759520.86,
+        "ventas_2024": 437774164.84,
+        "pct_change": -1.1259737589192134,
+        "abs_change": -4985356.0200000405
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 39300400.97,
+        "ventas_2024": 38718746.53,
+        "pct_change": -1.4800216426392294,
+        "abs_change": -581654.4399999976
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 558614655.92,
+        "ventas_2024": 538514864.0899999,
+        "pct_change": -3.598149747234445,
+        "abs_change": -20099791.830000043
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 422916443.97999996,
+        "ventas_2024": 407453235.54,
+        "pct_change": -3.65632707361249,
+        "abs_change": -15463208.439999938
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 3037280589.8399997,
+        "ventas_2024": 2895502528.81,
+        "pct_change": -4.667927668726465,
+        "abs_change": -141778061.02999973
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 181437.81,
+        "ventas_2024": 167316.94,
+        "pct_change": -7.782760384949529,
+        "abs_change": -14120.869999999995
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 355854798.79,
+        "ventas_2024": 283552123.99,
+        "pct_change": -20.318027197005108,
+        "abs_change": -72302674.80000001
+      }
+    ]
+  },
+  "6": {
+    "month": 6,
+    "month_label": "Junio",
+    "rankings": [
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 98323488.22,
+        "ventas_2024": 118239542.5,
+        "pct_change": 20.255642512842496,
+        "abs_change": 19916054.28
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 719689704.07,
+        "ventas_2024": 782257549.23,
+        "pct_change": 8.693725199369304,
+        "abs_change": 62567845.15999997
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 2528196570.07,
+        "ventas_2024": 2728321782.12,
+        "pct_change": 7.915729908788646,
+        "abs_change": 200125212.0499997
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 427618.97,
+        "ventas_2024": 459076.87,
+        "pct_change": 7.356525834202357,
+        "abs_change": 31457.900000000023
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 542606223.9599999,
+        "ventas_2024": 537092449.95,
+        "pct_change": -1.0161649031151434,
+        "abs_change": -5513774.009999871
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 797437150.24,
+        "ventas_2024": 784677993.86,
+        "pct_change": -1.6000203120910463,
+        "abs_change": -12759156.379999995
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 11196352267.14,
+        "ventas_2024": 10523274193.119999,
+        "pct_change": -6.011583576156378,
+        "abs_change": -673078074.0200005
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 507768650.42999995,
+        "ventas_2024": 475326131.35,
+        "pct_change": -6.389232390090689,
+        "abs_change": -32442519.079999924
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 307170506.0,
+        "ventas_2024": 286899904.26,
+        "pct_change": -6.599136747849095,
+        "abs_change": -20270601.74000001
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 352094438.42,
+        "ventas_2024": 321542538.2,
+        "pct_change": -8.677189096510475,
+        "abs_change": -30551900.22000003
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 3566077740.02,
+        "ventas_2024": 3225732523.27,
+        "pct_change": -9.543965150577204,
+        "abs_change": -340345216.75
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 521567764.91,
+        "ventas_2024": 462666351.53000003,
+        "pct_change": -11.293146805221719,
+        "abs_change": -58901413.379999995
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 1928767824.47,
+        "ventas_2024": 1678118578.76,
+        "pct_change": -12.995304179696959,
+        "abs_change": -250649245.71000004
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 560639628.89,
+        "ventas_2024": 480990993.91,
+        "pct_change": -14.206743668422945,
+        "abs_change": -79648634.97999996
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 86304304.67,
+        "ventas_2024": 72994588.19,
+        "pct_change": -15.42184544663455,
+        "abs_change": -13309716.480000004
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 533227335.27,
+        "ventas_2024": 444937941.71,
+        "pct_change": -16.5575520458445,
+        "abs_change": -88289393.56
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 671290556.13,
+        "ventas_2024": 542915441.47,
+        "pct_change": -19.123628879882418,
+        "abs_change": -128375114.65999997
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 101889052.91,
+        "ventas_2024": 81682777.91,
+        "pct_change": -19.831644737976394,
+        "abs_change": -20206275.0
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 391758260.67,
+        "ventas_2024": 308418264.08,
+        "pct_change": -21.273322085785445,
+        "abs_change": -83339996.59000003
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 1339145425.1000001,
+        "ventas_2024": 1004947543.98,
+        "pct_change": -24.956055918650062,
+        "abs_change": -334197881.1200001
+      },
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 3804118.49,
+        "ventas_2024": 2439411.44,
+        "pct_change": -35.87446220688042,
+        "abs_change": -1364707.0500000003
+      }
+    ]
+  },
+  "7": {
+    "month": 7,
+    "month_label": "Julio",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 568480.97,
+        "ventas_2024": 878403.71,
+        "pct_change": 54.517698279328506,
+        "abs_change": 309922.74
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 603638470.35,
+        "ventas_2024": 738620246.4,
+        "pct_change": 22.36136076147287,
+        "abs_change": 134981776.04999995
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 135177241.47,
+        "ventas_2024": 163081845.51,
+        "pct_change": 20.64297490949531,
+        "abs_change": 27904604.03999999
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1309294759.52,
+        "ventas_2024": 1531021205.77,
+        "pct_change": 16.93479979491303,
+        "abs_change": 221726446.25
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 534878958.46999997,
+        "ventas_2024": 604525162.99,
+        "pct_change": 13.020928084219324,
+        "abs_change": 69646204.52000004
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 35601549.88,
+        "ventas_2024": 39932870.9,
+        "pct_change": 12.16610241576369,
+        "abs_change": 4331321.019999996
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 400906270.56,
+        "ventas_2024": 444535784.44,
+        "pct_change": 10.882721744176452,
+        "abs_change": 43629513.879999995
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 177710994.38,
+        "ventas_2024": 196779565.43,
+        "pct_change": 10.730102049412668,
+        "abs_change": 19068571.050000012
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 7986804980.52,
+        "ventas_2024": 8762004637.96,
+        "pct_change": 9.706004582943095,
+        "abs_change": 775199657.4399986
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 336544826.15000004,
+        "ventas_2024": 365347878.19,
+        "pct_change": 8.558459320115137,
+        "abs_change": 28803052.03999996
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 224533517.08999997,
+        "ventas_2024": 239986534.25,
+        "pct_change": 6.882276356899526,
+        "abs_change": 15453017.160000026
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 806942250.11,
+        "ventas_2024": 851854102.84,
+        "pct_change": 5.565683631496277,
+        "abs_change": 44911852.73000002
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 87987254.75,
+        "ventas_2024": 92478903.27,
+        "pct_change": 5.104885398188873,
+        "abs_change": 4491648.519999996
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2701437434.96,
+        "ventas_2024": 2806879768.46,
+        "pct_change": 3.9031936159410363,
+        "abs_change": 105442333.5
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 239379767.24,
+        "ventas_2024": 240288826.03,
+        "pct_change": 0.3797559002087998,
+        "abs_change": 909058.7899999917
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 322789063.65,
+        "ventas_2024": 323364014.13,
+        "pct_change": 0.178119566226518,
+        "abs_change": 574950.4800000191
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 422730811.57,
+        "ventas_2024": 412805798.27000004,
+        "pct_change": -2.3478329538220732,
+        "abs_change": -9925013.299999952
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 363224328.87,
+        "ventas_2024": 328383172.79,
+        "pct_change": -9.59218678671434,
+        "abs_change": -34841156.07999998
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 731716439.9200001,
+        "ventas_2024": 638318998.04,
+        "pct_change": -12.764157914808013,
+        "abs_change": -93397441.88000011
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 115117302.88,
+        "ventas_2024": 88525755.74000001,
+        "pct_change": -23.09952237824701,
+        "abs_change": -26591547.139999986
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 444805.04000000004,
+        "ventas_2024": 309023.16000000003,
+        "pct_change": -30.526155908665064,
+        "abs_change": -135781.88
+      }
+    ]
+  },
+  "8": {
+    "month": 8,
+    "month_label": "Agosto",
+    "rankings": [
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 114259.65,
+        "ventas_2024": 307486.53,
+        "pct_change": 169.1120881255982,
+        "abs_change": 193226.88000000003
+      },
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 521558.39,
+        "ventas_2024": 872077.98,
+        "pct_change": 67.2062029334817,
+        "abs_change": 350519.58999999997
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 33902157.309999995,
+        "ventas_2024": 46483054.720000006,
+        "pct_change": 37.109430219914266,
+        "abs_change": 12580897.410000011
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 76474096.37,
+        "ventas_2024": 94798360.61,
+        "pct_change": 23.961400146976324,
+        "abs_change": 18324264.239999995
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 309594311.58,
+        "ventas_2024": 357898415.81,
+        "pct_change": 15.602387519164127,
+        "abs_change": 48304104.23000002
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 169046932.70000002,
+        "ventas_2024": 192688582.78,
+        "pct_change": 13.985258237104933,
+        "abs_change": 23641650.079999983
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 614647127.62,
+        "ventas_2024": 690234944.02,
+        "pct_change": 12.297758014860758,
+        "abs_change": 75587816.39999998
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 513606933.46,
+        "ventas_2024": 573829541.54,
+        "pct_change": 11.7254273952846,
+        "abs_change": 60222608.07999998
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 224755417.23999998,
+        "ventas_2024": 246660346.69,
+        "pct_change": 9.746118567015156,
+        "abs_change": 21904929.450000018
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1419898566.01,
+        "ventas_2024": 1533774583.71,
+        "pct_change": 8.020010754711759,
+        "abs_change": 113876017.70000005
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 215626219.20999998,
+        "ventas_2024": 229157647.85,
+        "pct_change": 6.275409683282374,
+        "abs_change": 13531428.640000015
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 333645108.91,
+        "ventas_2024": 354046355.43,
+        "pct_change": 6.114654755962021,
+        "abs_change": 20401246.51999998
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 8501043134.599999,
+        "ventas_2024": 8980046981.83,
+        "pct_change": 5.63464788550963,
+        "abs_change": 479003847.2300005
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 222064056.07999998,
+        "ventas_2024": 230639479.86999997,
+        "pct_change": 3.86168925371274,
+        "abs_change": 8575423.789999992
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 850681299.49,
+        "ventas_2024": 864559379.4799999,
+        "pct_change": 1.6314076726877704,
+        "abs_change": 13878079.98999989
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 405229721.01,
+        "ventas_2024": 409122487.1,
+        "pct_change": 0.9606319300316005,
+        "abs_change": 3892766.0900000334
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 91688159.67999999,
+        "ventas_2024": 92062371.03999999,
+        "pct_change": 0.4081348794719308,
+        "abs_change": 374211.3599999994
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 449506244.61,
+        "ventas_2024": 443684373.49,
+        "pct_change": -1.2951702428630705,
+        "abs_change": -5821871.120000005
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 738617077.74,
+        "ventas_2024": 720795466.77,
+        "pct_change": -2.4128349461577705,
+        "abs_change": -17821610.97000003
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2919964034.06,
+        "ventas_2024": 2798890881.1800003,
+        "pct_change": -4.146391923590104,
+        "abs_change": -121073152.87999964
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 373531647.90999997,
+        "ventas_2024": 340303746.58,
+        "pct_change": -8.895605369964803,
+        "abs_change": -33227901.329999983
+      }
+    ]
+  },
+  "9": {
+    "month": 9,
+    "month_label": "Septiembre",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 469524.9,
+        "ventas_2024": 887652.65,
+        "pct_change": 89.05337075839854,
+        "abs_change": 418127.75
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 318052494.24,
+        "ventas_2024": 424824052.3,
+        "pct_change": 33.570419975839265,
+        "abs_change": 106771558.06
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 226938132.26,
+        "ventas_2024": 264998905.92000002,
+        "pct_change": 16.77143161484836,
+        "abs_change": 38060773.660000026
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 170140342.62,
+        "ventas_2024": 194469465.28,
+        "pct_change": 14.299443791727798,
+        "abs_change": 24329122.659999996
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 312246557.93,
+        "ventas_2024": 351275838.64,
+        "pct_change": 12.499507110259204,
+        "abs_change": 39029280.70999998
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 636493395.58,
+        "ventas_2024": 704639782.19,
+        "pct_change": 10.706534754834667,
+        "abs_change": 68146386.61000001
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 307984562.17,
+        "ventas_2024": 332936389.99,
+        "pct_change": 8.1016488762275,
+        "abs_change": 24951827.819999993
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 290634697.46,
+        "ventas_2024": 308628486.59,
+        "pct_change": 6.191204727878879,
+        "abs_change": 17993789.129999995
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 713387997.6800001,
+        "ventas_2024": 753690248.04,
+        "pct_change": 5.649415253840312,
+        "abs_change": 40302250.359999895
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1401418318.3,
+        "ventas_2024": 1477503309.48,
+        "pct_change": 5.4291420474862555,
+        "abs_change": 76084991.18000007
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 216805167.0,
+        "ventas_2024": 228197363.42,
+        "pct_change": 5.254577913265317,
+        "abs_change": 11392196.419999987
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 450361487.64,
+        "ventas_2024": 467195209.81,
+        "pct_change": 3.737824532513354,
+        "abs_change": 16833722.170000017
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 92944621.37,
+        "ventas_2024": 96227127.82000001,
+        "pct_change": 3.5316798343099247,
+        "abs_change": 3282506.450000003
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 71297476.3,
+        "ventas_2024": 73676027.51,
+        "pct_change": 3.3360945343867776,
+        "abs_change": 2378551.2100000083
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 406095612.87,
+        "ventas_2024": 407532428.09999996,
+        "pct_change": 0.353812054221801,
+        "abs_change": 1436815.2299999595
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 801767147.26,
+        "ventas_2024": 801499867.35,
+        "pct_change": -0.03333635094844964,
+        "abs_change": -267279.9099999666
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2792512882.94,
+        "ventas_2024": 2779313197.39,
+        "pct_change": -0.4726812768041149,
+        "abs_change": -13199685.55000019
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 605878928.9,
+        "ventas_2024": 601917996.84,
+        "pct_change": -0.6537497627110403,
+        "abs_change": -3960932.059999943
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 8529784040.35,
+        "ventas_2024": 8354690681.46,
+        "pct_change": -2.0527290967945278,
+        "abs_change": -175093358.89000034
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 55137163.29,
+        "ventas_2024": 35338607.78,
+        "pct_change": -35.90782392243741,
+        "abs_change": -19798555.509999998
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 371344.97000000003,
+        "ventas_2024": 169058.39,
+        "pct_change": -54.47403259562126,
+        "abs_change": -202286.58000000002
+      }
+    ]
+  },
+  "10": {
+    "month": 10,
+    "month_label": "Octubre",
+    "rankings": [
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 32554838.13,
+        "ventas_2024": 49141654.71,
+        "pct_change": 50.950388737196285,
+        "abs_change": 16586816.580000002
+      },
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 567485.0,
+        "ventas_2024": 842898.24,
+        "pct_change": 48.532250191635015,
+        "abs_change": 275413.24
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 164978.22,
+        "ventas_2024": 231565.72,
+        "pct_change": 40.361388309317434,
+        "abs_change": 66587.5
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 70237723.66,
+        "ventas_2024": 93343517.85,
+        "pct_change": 32.896558979969655,
+        "abs_change": 23105794.189999998
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1412679729.33,
+        "ventas_2024": 1740250246.26,
+        "pct_change": 23.18788258435328,
+        "abs_change": 327570516.93000007
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 173323268.3,
+        "ventas_2024": 201432654.59,
+        "pct_change": 16.217895361485052,
+        "abs_change": 28109386.28999999
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 653061217.7,
+        "ventas_2024": 758418750.17,
+        "pct_change": 16.132872327200193,
+        "abs_change": 105357532.46999991
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 433584075.53,
+        "ventas_2024": 480863617.79,
+        "pct_change": 10.904353948471696,
+        "abs_change": 47279542.26000005
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 536570982.03999996,
+        "ventas_2024": 588611878.38,
+        "pct_change": 9.698790669250265,
+        "abs_change": 52040896.34000003
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 316600299.16999996,
+        "ventas_2024": 344928847.73,
+        "pct_change": 8.947732719857262,
+        "abs_change": 28328548.560000062
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 221230141.64,
+        "ventas_2024": 240367114.43,
+        "pct_change": 8.65025563340322,
+        "abs_change": 19136972.79000002
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 8453656289.18,
+        "ventas_2024": 9036588858.35,
+        "pct_change": 6.895626569489309,
+        "abs_change": 582932569.1700001
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 811601164.11,
+        "ventas_2024": 866072249.84,
+        "pct_change": 6.711558353878519,
+        "abs_change": 54471085.73000002
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 385184029.62,
+        "ventas_2024": 409606594.39,
+        "pct_change": 6.340492567693904,
+        "abs_change": 24422564.76999998
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 87488759.06,
+        "ventas_2024": 92857144.76,
+        "pct_change": 6.136086232882045,
+        "abs_change": 5368385.700000003
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 226068267.81,
+        "ventas_2024": 238500412.11,
+        "pct_change": 5.499287635736945,
+        "abs_change": 12432144.300000012
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2894567393.14,
+        "ventas_2024": 2941917447.11,
+        "pct_change": 1.6358248932886434,
+        "abs_change": 47350053.97000027
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 417708228.06,
+        "ventas_2024": 421000887.71,
+        "pct_change": 0.7882678455467282,
+        "abs_change": 3292659.649999976
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 245083815.45000002,
+        "ventas_2024": 243521044.31,
+        "pct_change": -0.6376476297019454,
+        "abs_change": -1562771.1400000155
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 679388033.08,
+        "ventas_2024": 617473137.5699999,
+        "pct_change": -9.113333249234527,
+        "abs_change": -61914895.51000011
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 364548973.3,
+        "ventas_2024": 313063934.53,
+        "pct_change": -14.122941645931125,
+        "abs_change": -51485038.77000004
+      }
+    ]
+  },
+  "11": {
+    "month": 11,
+    "month_label": "Noviembre",
+    "rankings": [
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 455376.04,
+        "ventas_2024": 802733.89,
+        "pct_change": 76.27934267248668,
+        "abs_change": 347357.85000000003
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 1405648560.56,
+        "ventas_2024": 1730731510.77,
+        "pct_change": 23.12690094318379,
+        "abs_change": 325082950.21000004
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 167859457.12,
+        "ventas_2024": 205372509.51999998,
+        "pct_change": 22.347893317194814,
+        "abs_change": 37513052.399999976
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 455548359.90999997,
+        "ventas_2024": 544951334.52,
+        "pct_change": 19.625353195797445,
+        "abs_change": 89402974.61000001
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 229199083.8,
+        "ventas_2024": 259741043.57,
+        "pct_change": 13.325515645014974,
+        "abs_change": 30541959.76999998
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 37171930.68,
+        "ventas_2024": 41562558.78,
+        "pct_change": 11.811676229027126,
+        "abs_change": 4390628.1000000015
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 175340485.95,
+        "ventas_2024": 195680915.63,
+        "pct_change": 11.600532284255374,
+        "abs_change": 20340429.680000007
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 511135107.45,
+        "ventas_2024": 558494348.28,
+        "pct_change": 9.265503413817596,
+        "abs_change": 47359240.82999998
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 733186599.0799999,
+        "ventas_2024": 791225562.8100001,
+        "pct_change": 7.915988072180702,
+        "abs_change": 58038963.73000014
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 8547695516.86,
+        "ventas_2024": 9202744174.76,
+        "pct_change": 7.663453343745602,
+        "abs_change": 655048657.9000006
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 230221856.7,
+        "ventas_2024": 244300551.66,
+        "pct_change": 6.115272964002644,
+        "abs_change": 14078694.960000008
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 413167590.20000005,
+        "ventas_2024": 435997115.07,
+        "pct_change": 5.525487819349278,
+        "abs_change": 22829524.869999945
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 90495460.58,
+        "ventas_2024": 93239700.77000001,
+        "pct_change": 3.032461708478784,
+        "abs_change": 2744240.1900000125
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 2863113971.42,
+        "ventas_2024": 2925152953.94,
+        "pct_change": 2.166835939445013,
+        "abs_change": 62038982.51999998
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 872578846.0,
+        "ventas_2024": 873950029.36,
+        "pct_change": 0.15714148541254166,
+        "abs_change": 1371183.3600000143
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 429310215.16999996,
+        "ventas_2024": 402747876.87,
+        "pct_change": -6.187213199546555,
+        "abs_change": -26562338.299999952
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 87492865.04,
+        "ventas_2024": 75454627.35000001,
+        "pct_change": -13.759107882107132,
+        "abs_change": -12038237.689999998
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 381391546.65999997,
+        "ventas_2024": 315099985.42,
+        "pct_change": -17.381497261945622,
+        "abs_change": -66291561.23999995
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 435726337.58,
+        "ventas_2024": 357029415.09999996,
+        "pct_change": -18.06108919581919,
+        "abs_change": -78696922.48000002
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 755418758.0400001,
+        "ventas_2024": 575557263.2,
+        "pct_change": -23.809508689811516,
+        "abs_change": -179861494.84000003
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 312218.36,
+        "ventas_2024": 180962.36000000002,
+        "pct_change": -42.03980829314457,
+        "abs_change": -131255.99999999997
+      }
+    ]
+  },
+  "12": {
+    "month": 12,
+    "month_label": "Diciembre",
+    "rankings": [
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "sector_code": "A",
+        "ventas_2023": 3070697187.43,
+        "ventas_2024": 3716356743.61,
+        "pct_change": 21.02648085337196,
+        "abs_change": 645659556.1800003
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "sector_code": "B",
+        "ventas_2023": 686589401.8100001,
+        "ventas_2024": 764545556.9499999,
+        "pct_change": 11.354115710858682,
+        "abs_change": 77956155.13999987
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "sector_code": "K",
+        "ventas_2023": 606415802.17,
+        "ventas_2024": 668760388.61,
+        "pct_change": 10.280831438908091,
+        "abs_change": 62344586.44000006
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "sector_code": "E",
+        "ventas_2023": 118286608.24000001,
+        "ventas_2024": 122575063.73,
+        "pct_change": 3.6254784491739303,
+        "abs_change": 4288455.489999995
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "sector_code": "G",
+        "ventas_2023": 13210473901.43,
+        "ventas_2024": 13028230020.84,
+        "pct_change": -1.379540824574603,
+        "abs_change": -182243880.59000015
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "sector_code": "C",
+        "ventas_2023": 3812436305.84,
+        "ventas_2024": 3735998517.08,
+        "pct_change": -2.004959102999586,
+        "abs_change": -76437788.76000023
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "sector_code": "Q",
+        "ventas_2023": 966370584.78,
+        "ventas_2024": 930008823.1899999,
+        "pct_change": -3.762714031520113,
+        "abs_change": -36361761.59000003
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "sector_code": "N",
+        "ventas_2023": 767334177.14,
+        "ventas_2024": 734048959.59,
+        "pct_change": -4.337773364150189,
+        "abs_change": -33285217.549999952
+      },
+      {
+        "sector": "Enseñanza",
+        "sector_code": "P",
+        "ventas_2023": 322254837.93,
+        "ventas_2024": 307710270.31,
+        "pct_change": -4.513374481334976,
+        "abs_change": -14544567.620000005
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "sector_code": "U",
+        "ventas_2023": 385785.75,
+        "ventas_2024": 367294.99,
+        "pct_change": -4.793012701998457,
+        "abs_change": -18490.76000000001
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "sector_code": "H",
+        "ventas_2023": 2198129185.53,
+        "ventas_2024": 2073698589.39,
+        "pct_change": -5.660749921301742,
+        "abs_change": -124430596.1400001
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "sector_code": "O",
+        "ventas_2023": 95747331.32000001,
+        "ventas_2024": 88270730.62,
+        "pct_change": -7.808677899347641,
+        "abs_change": -7476600.700000003
+      },
+      {
+        "sector": "Información y comunicación",
+        "sector_code": "J",
+        "ventas_2023": 635925538.5699999,
+        "ventas_2024": 569720536.41,
+        "pct_change": -10.410810408538484,
+        "abs_change": -66205002.15999997
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "sector_code": "L",
+        "ventas_2023": 502276758.34000003,
+        "ventas_2024": 444000084.16999996,
+        "pct_change": -11.60250264467773,
+        "abs_change": -58276674.17000008
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "sector_code": "S",
+        "ventas_2023": 678335537.09,
+        "ventas_2024": 575520251.1899999,
+        "pct_change": -15.156995362659115,
+        "abs_change": -102815285.9000001
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "sector_code": "D",
+        "ventas_2023": 397049110.63,
+        "ventas_2024": 336178152.49000007,
+        "pct_change": -15.330838556322579,
+        "abs_change": -60870958.139999926
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "sector_code": "I",
+        "ventas_2023": 629440225.56,
+        "ventas_2024": 528943465.68,
+        "pct_change": -15.966052978357087,
+        "abs_change": -100496759.87999994
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "sector_code": "R",
+        "ventas_2023": 130451132.96000001,
+        "ventas_2024": 104867087.14,
+        "pct_change": -19.611976714563912,
+        "abs_change": -25584045.820000008
+      },
+      {
+        "sector": "Construcción",
+        "sector_code": "F",
+        "ventas_2023": 1244932023.98,
+        "ventas_2024": 993625147.35,
+        "pct_change": -20.186393456775377,
+        "abs_change": -251306876.63
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "sector_code": "M",
+        "ventas_2023": 1948299199.07,
+        "ventas_2024": 1527764464.72,
+        "pct_change": -21.58471011797047,
+        "abs_change": -420534734.3499999
+      },
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "sector_code": "T",
+        "ventas_2023": 4770454.12,
+        "ventas_2024": 2589350.17,
+        "pct_change": -45.72109688374909,
+        "abs_change": -2181103.95
+      }
+    ]
+  }
+}

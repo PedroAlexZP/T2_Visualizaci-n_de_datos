@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SRI Ventas Ecuador 2023-2024</title>
+  <meta name="description" content="Scrollytelling con hallazgos sobre ventas SRI Ecuador 2023-2024.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/charts/hallazgo1_linechart_estacionalidad.js" defer></script>
+  <script src="assets/js/charts/hallazgo2_lollipop_variacion_positiva.js" defer></script>
+  <script src="assets/js/charts/hallazgo3_lollipop_variacion_negativa.js" defer></script>
+  <script src="assets/js/charts/hallazgo4_treemap_provincias.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <header class="topbar" aria-label="Resumen del proyecto">
+    <div>
+      <span class="eyebrow">SRI Ecuador 2023-2024</span>
+      <span class="topbar__title">Ventas, sectores y provincias en scroll narrativo</span>
+    </div>
+    <div id="load-status" class="topbar__status">Cargando métricas procesadas...</div>
+    <button type="button" id="fullscreen-btn" class="topbar__btn" aria-label="Pantalla completa">
+      <svg id="fs-icon-enter" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+      <svg id="fs-icon-exit" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><polyline points="4 14 10 14 10 20"></polyline><polyline points="20 10 14 10 14 4"></polyline><line x1="14" y1="10" x2="21" y2="3"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+    </button>
+  </header>
+
+  <main class="story-shell">
+    <nav class="story-nav" aria-label="Navegación de secciones">
+      <button type="button" data-target="hero" aria-label="Ir a la portada"></button>
+      <button type="button" data-target="introduction" aria-label="Ir a introducción"></button>
+      <button type="button" data-target="objectives" aria-label="Ir a objetivos"></button>
+      <button type="button" data-target="seasonality" aria-label="Ir a la estacionalidad"></button>
+      <button type="button" data-target="sector-growth" aria-label="Ir al crecimiento sectorial"></button>
+      <button type="button" data-target="sector-decline" aria-label="Ir a la caída sectorial"></button>
+      <button type="button" data-target="province-concentration" aria-label="Ir a la concentración provincial"></button>
+      <button type="button" data-target="conclusions" aria-label="Ir a conclusiones"></button>
+      <button type="button" data-target="recommendations" aria-label="Ir a recomendaciones"></button>
+      <button type="button" data-target="credits" aria-label="Ir a créditos"></button>
+    </nav>
+
+    <button type="button" class="arrow-btn arrow-btn--left" id="arrow-left" aria-label="Sección anterior">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <button type="button" class="arrow-btn arrow-btn--right" id="arrow-right" aria-label="Sección siguiente">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+
+    <section class="panels-track" id="panels-track">
+      <section class="panel panel--hero" id="hero" tabindex="0">
+        <div class="panel-copy hero-copy">
+          <div class="hero-stack" aria-label="Título principal del proyecto">
+            <span>VENTAS</span>
+            <span>ECUADOR</span>
+          </div>
+          <h1>2023 · 2024</h1>
+          <p class="lede">
+            Una lectura narrativa del total de ventas del SRI, con foco en estacionalidad, sectores y concentración territorial.
+            Navega con scroll horizontal o usa el teclado para avanzar entre pantallas.
+          </p>
+          <div class="hero-stats">
+            <article class="stat-card">
+              <span class="stat-label">Ventas 2023</span>
+              <strong id="annual-2023">—</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Ventas 2024</span>
+              <strong id="annual-2024">—</strong>
+            </article>
+            <article class="stat-card stat-card--accent">
+              <span class="stat-label">Variación anual</span>
+              <strong id="annual-delta">—</strong>
+            </article>
+          </div>
+          <div class="hero-metadata">
+            <p><strong>Dataset:</strong> SRI Ecuador (12 meses 2023-2024, ~97k registros)</p>
+            <p><strong>Grupo:</strong> Alay Pedro, Casanova Diego, Delgado Jostin, Zambrano Pedro</p>
+            <p><strong>Herramientas:</strong> Python (pandas), GSAP, Plotly.js, HTML/CSS vanilla</p>
+          </div>
+          <p class="microcopy">Fuente: SRI Ecuador. 2024 está completo. Los datos se procesaron desde CSV con separador vertical y coma decimal.</p>
+        </div>
+        <div class="panel-visual hero-visual">
+          <div class="hero-frame">
+            <span class="frame-label">01 · Ecuador · 2023-2024</span>
+            <div class="frame-title">Cada sala responde una pregunta distinta</div>
+            <p>La composición privilegia una sola idea por pantalla, con gráficos limpios y anotaciones directas.</p>
+            <div class="frame-grid">
+              <div><span>01</span><small>Estacionalidad</small></div>
+              <div><span>02</span><small>Crecimiento sectorial</small></div>
+              <div><span>03</span><small>Caída sectorial</small></div>
+              <div><span>04</span><small>Concentración provincial</small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="introduction" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Introducción</p>
+          <h2>¿Cómo se mueve el dinero en Ecuador? Un patrón estacional y territorial muy marcado.</h2>
+          <p class="lede">
+            Ecuador es una economía concentrada: pocas provincias, pocos sectores y pocos meses del año sostienen la mayor parte del volumen de ventas.
+            Este análisis usa datos públicos del SRI para responder dónde, cuándo y en qué se concentra la actividad fiscal, entre 2023 y 2024.
+          </p>
+          <div class="intro-context">
+            <p>
+              La relevancia reside en que patrones estacionales y territoriales definen tanto las presiones sobre infraestructura y servicios públicos,
+              como las oportunidades para sectores menores. Entender dónde está el dinero es el primer paso para leer vulnerabilidades económicas.
+            </p>
+          </div>
+        </div>
+        <div class="panel-visual chart-card chart-card--info">
+          <div class="info-frame">
+            <h3>Tres preguntas que responde este análisis</h3>
+            <ul>
+              <li><strong>¿Cuándo?</strong> Estacionalidad: en qué meses del año se concentra el volumen de ventas.</li>
+              <li><strong>¿Qué?</strong> Sectores: cuáles crecen, cuáles se contraen, y cuál es el cambio interanual.</li>
+              <li><strong>¿Dónde?</strong> Provincias: qué tan concentrado está el dinero en el territorio nacional.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel--text" id="objectives" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Objetivos</p>
+          <h2>Tres metas medibles para estructurar el análisis.</h2>
+          <p class="lede">
+            Estos objetivos guían la selección de gráficos, métricas y narrativa a lo largo del proyecto.
+            Cada sección posterior responde directamente a uno o más de estos enunciados.
+          </p>
+          <div class="objectives-grid">
+            <article class="objective-card">
+              <span class="obj-number">1</span>
+              <strong>Identificar patrones estacionales en ventas totales 2023 vs 2024</strong>
+              <p>Medir en qué meses se concentra el pico de ventas y en cuál el piso, y si ambos años repiten el patrón.</p>
+            </article>
+            <article class="objective-card">
+              <span class="obj-number">2</span>
+              <strong>Calcular variación interanual por sector económico</strong>
+              <p>Identificar cuáles sectores crecen, cuáles se contraen, y el tamaño relativo de ambos grupos.</p>
+            </article>
+            <article class="objective-card">
+              <span class="obj-number">3</span>
+              <strong>Cuantificar concentración territorial de ventas</strong>
+              <p>Medir el índice de Herfindahl de concentración por provincia, y qué % del total representan el top 3 y top 5.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="seasonality" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Hallazgo 1</p>
+          <h2>Diciembre empuja el año hacia arriba; febrero queda como el piso más bajo.</h2>
+          <p class="lede">
+            La estacionalidad no es suave: el cierre de año concentra el mayor volumen de ventas, mientras que el primer trimestre se mueve en una banda mucho más baja.
+            Comparar 2023 y 2024 revela un patrón similar con una caída a mitad de año y un rebote al final.
+          </p>
+          <div class="callout-row">
+            <article class="callout">
+              <span>Mes pico combinado</span>
+              <strong id="peak-month">—</strong>
+              <small id="peak-value">—</small>
+            </article>
+            <article class="callout callout--muted">
+              <span>Mes más bajo combinado</span>
+              <strong id="trough-month">—</strong>
+              <small id="trough-value">—</small>
+            </article>
+          </div>
+        </div>
+        <div class="panel-visual chart-card">
+          <div class="chart" id="seasonality-chart" role="img" aria-label="Gráfico de estacionalidad de ventas por mes"></div>
+        </div>
+      </section>
+
+      <section class="panel" id="sector-growth" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Hallazgo 2</p>
+          <h2>La mayor subida porcentual no aparece en el sector más grande, sino en un segmento pequeño.</h2>
+          <p class="lede">
+            El crecimiento relativo más alto pertenece a la categoría de no clasificados; en valor absoluto, el salto es modesto, pero sirve para leer dónde cambia primero la aguja.
+            El gráfico ordena todos los sectores para separar crecimiento real de ruido estadístico.
+          </p>
+          <div class="callout-row">
+            <article class="callout callout--positive">
+              <span>Mayor crecimiento interanual</span>
+              <strong id="positive-sector">—</strong>
+              <small id="positive-change">—</small>
+            </article>
+          </div>
+        </div>
+        <div class="panel-visual">
+          <div class="month-slider-container" id="growth-slider-container">
+            <label for="month-slider-growth" style="display: block; font-size: 12px; color: rgba(239, 246, 255, 0.7); margin-bottom: 8px;">
+              Mostrando: <strong id="month-label-growth">Diciembre</strong> 2023 vs 2024
+            </label>
+            <input type="range" id="month-slider-growth" min="1" max="12" value="12" style="width: 100%; cursor: pointer;">
+          </div>
+          <div class="chart-card">
+            <div style="margin-bottom: 12px; display: flex; gap: 8px;">
+              <button type="button" id="toggle-growth-view" class="view-toggle-btn view-toggle-btn--active" data-view="annual">
+                Ver anual
+              </button>
+              <button type="button" id="toggle-growth-monthly" class="view-toggle-btn" data-view="monthly">
+                Ver por mes
+              </button>
+            </div>
+            <div class="chart" id="sector-growth-chart" role="img" aria-label="Gráfico de variación positiva interanual por sector"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="sector-decline" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Hallazgo 3</p>
+          <h2>La caída más fuerte también ocurre en una categoría pequeña, aunque el golpe absoluto pesa en sectores mayores.</h2>
+          <p class="lede">
+            El peor porcentaje interanual se concentra en organismos extraterritoriales; aun así, las pérdidas en sectores de mayor escala siguen siendo relevantes para leer la contracción total.
+            La misma escala facilita comparar ganadores y perdedores con un lenguaje visual consistente.
+          </p>
+          <div class="callout-row">
+            <article class="callout callout--negative">
+              <span>Mayor caída interanual</span>
+              <strong id="negative-sector">—</strong>
+              <small id="negative-change">—</small>
+            </article>
+          </div>
+        </div>
+        <div class="panel-visual">
+          <div class="month-slider-container" id="decline-slider-container">
+            <label for="month-slider-decline" style="display: block; font-size: 12px; color: rgba(239, 246, 255, 0.7); margin-bottom: 8px;">
+              Mostrando: <strong id="month-label-decline">Diciembre</strong> 2023 vs 2024
+            </label>
+            <input type="range" id="month-slider-decline" min="1" max="12" value="12" style="width: 100%; cursor: pointer;">
+          </div>
+          <div class="chart-card">
+            <div style="margin-bottom: 12px; display: flex; gap: 8px;">
+              <button type="button" id="toggle-decline-view" class="view-toggle-btn view-toggle-btn--active" data-view="annual">
+                Ver anual
+              </button>
+              <button type="button" id="toggle-decline-monthly" class="view-toggle-btn" data-view="monthly">
+                Ver por mes
+              </button>
+            </div>
+            <div class="chart" id="sector-decline-chart" role="img" aria-label="Gráfico de variación negativa interanual por sector"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="province-concentration" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Hallazgo 4</p>
+          <h2>Pichincha y Guayas concentran casi cuatro quintas partes del total nacional.</h2>
+          <p class="lede">
+            El treemap jerárquico visualiza el tamaño de cada provincia proporcionalmente a sus ventas totales. El área de cada rectángulo representa el volumen de ventas, mientras que el color (escala azul a amarillo) indica la concentración: Pichincha y Guayas dominan el mercado con áreas significativamente más grandes.
+          </p>
+          <div class="callout-row">
+            <article class="callout callout--accent">
+              <span>Participación top 3</span>
+              <strong id="province-top3">—</strong>
+              <small id="province-top5">—</small>
+            </article>
+          </div>
+        </div>
+        <div class="panel-visual">
+          <div class="province-filter-bar" id="province-filter-bar">
+            <label for="province-sector-filter">Filtrar por sector:</label>
+            <select id="province-sector-filter">
+              <option value="all">Todos los sectores</option>
+            </select>
+          </div>
+          <div class="chart-card">
+            <div class="chart" id="province-chart" role="img" aria-label="Treemap: provincias por volumen de ventas"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel--text" id="conclusions" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Conclusiones</p>
+          <h2>Respuestas directas a cada objetivo planteado.</h2>
+          <p class="lede">
+            Volviendo a los tres objetivos iniciales, estos son los hallazgos medibles que el análisis valida:
+          </p>
+          <div class="conclusions-list">
+            <article>
+              <strong>Objetivo 1 (Estacionalidad):</strong>
+              <p>Diciembre es el mes pico en ambos años, representando ~$63 mil millones en ventas combinadas. Febrero es el más bajo, ~$33 mil millones. Este patrón es robusto y se repite año a año, sugiriendo factores estructurales (cierre fiscal, presupuestación anual) más que volatilidad aleatoria.</p>
+            </article>
+            <article>
+              <strong>Objetivo 2 (Variación sectorial):</strong>
+              <p>La variación interanual es positiva en la mayoría de sectores. Agricultura lidera el crecimiento absoluto (+$2,43 mil millones); mientras que sectores como Salud (-9,4%) y Construcción (-2,1%) se contraen, indicando heterogeneidad en el desempeño.</p>
+            </article>
+            <article>
+              <strong>Objetivo 3 (Concentración territorial):</strong>
+              <p>Pichincha y Guayas concentran 73,8% de todas las ventas nacionales; el top 3 llega al 78,1%. Esta concentración extrema señala una economía muy centralizada en la costa urbana, con implicaciones para política fiscal y distribución de servicios públicos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel--text" id="recommendations" tabindex="0">
+        <div class="panel-copy">
+          <p class="kicker">Recomendaciones</p>
+          <h2>Mejoras futuras y extensiones del análisis.</h2>
+          <p class="lede">
+            Este proyecto cubre agregaciones anuales y visualización narrativa. Con más datos y tiempo, se podría avanzar en:
+          </p>
+          <div class="recommendations-list">
+            <article>
+              <strong>Datos:</strong>
+              <p>Incluir históricos 2015-2024 para estudiar tendencias a largo plazo. Desagregar a nivel de cantón. Cruzar con tasas inflacionarias para deflactar volúmenes reales.</p>
+            </article>
+            <article>
+              <strong>Metodología:</strong>
+              <p>Calcular índices de concentración (Herfindahl, Gini). Aplicar análisis de series de tiempo (ARIMA, Prophet) para forecast mensual. Estimar elasticidades entre sectores.</p>
+            </article>
+            <article>
+              <strong>Presentación:</strong>
+              <p>Implementar exportación a PDF para reportería. Traducir a inglés para audiencia internacional.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel--text panel--closing" id="credits" tabindex="0">
+        <div class="panel-copy closing-copy">
+          <p class="kicker">Créditos</p>
+          <h2>Equipo, herramientas y fuentes.</h2>
+          <div class="credits-grid">
+            <article>
+              <span>Carrera</span>
+              <strong>Software</strong>
+            </article>
+            <article>
+              <span>Docente</span>
+              <strong>Ing. Anthony Legarda Albiño</strong>
+            </article>
+            <article>
+              <span>Integrantes</span>
+              <strong>Alay Pedro, Casanova Diego, Delgado Jostin, Zambrano Pedro</strong>
+            </article>
+            <article>
+              <span>Herramientas y librerías</span>
+              <strong>Python · pandas · Plotly.js · GSAP/ScrollTrigger · HTML5 · CSS3 · JavaScript</strong>
+            </article>
+          </div>
+          <p class="microcopy">Proyecto de código abierto para fines educativos y de investigación. Auditaría, modificación y distribución permitidas con crédito.</p>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

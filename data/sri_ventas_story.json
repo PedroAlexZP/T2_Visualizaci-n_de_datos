@@ -1,0 +1,555 @@
+{
+  "source": {
+    "name": "SRI Ecuador",
+    "years": [
+      2023,
+      2024
+    ],
+    "note": "2024 está completo. Los montos provienen de los CSV con separador |, codificación Latin-1 y decimales con coma."
+  },
+  "annual_totals": {
+    "2023": 238370740580.52,
+    "2024": 242988468932.57
+  },
+  "monthly": {
+    "by_year": [
+      {
+        "year": 2023,
+        "month": 1,
+        "month_label": "Enero",
+        "total_ventas": 16808329759.47
+      },
+      {
+        "year": 2023,
+        "month": 2,
+        "month_label": "Febrero",
+        "total_ventas": 16323405647.11
+      },
+      {
+        "year": 2023,
+        "month": 3,
+        "month_label": "Marzo",
+        "total_ventas": 18781150222.26
+      },
+      {
+        "year": 2023,
+        "month": 4,
+        "month_label": "Abril",
+        "total_ventas": 17405525662.05
+      },
+      {
+        "year": 2023,
+        "month": 5,
+        "month_label": "Mayo",
+        "total_ventas": 18617293491.95
+      },
+      {
+        "year": 2023,
+        "month": 6,
+        "month_label": "Junio",
+        "total_ventas": 26758275178.06
+      },
+      {
+        "year": 2023,
+        "month": 7,
+        "month_label": "Julio",
+        "total_ventas": 17538218567.58
+      },
+      {
+        "year": 2023,
+        "month": 8,
+        "month_label": "Agosto",
+        "total_ventas": 18464837576.32
+      },
+      {
+        "year": 2023,
+        "month": 9,
+        "month_label": "Septiembre",
+        "total_ventas": 18401364337.94
+      },
+      {
+        "year": 2023,
+        "month": 10,
+        "month_label": "Octubre",
+        "total_ventas": 18416725835.09
+      },
+      {
+        "year": 2023,
+        "month": 11,
+        "month_label": "Noviembre",
+        "total_ventas": 18823323618.69
+      },
+      {
+        "year": 2023,
+        "month": 12,
+        "month_label": "Diciembre",
+        "total_ventas": 32032290684.0
+      },
+      {
+        "year": 2024,
+        "month": 1,
+        "month_label": "Enero",
+        "total_ventas": 16699616120.96
+      },
+      {
+        "year": 2024,
+        "month": 2,
+        "month_label": "Febrero",
+        "total_ventas": 16908511455.5
+      },
+      {
+        "year": 2024,
+        "month": 3,
+        "month_label": "Marzo",
+        "total_ventas": 19321828532.47
+      },
+      {
+        "year": 2024,
+        "month": 4,
+        "month_label": "Abril",
+        "total_ventas": 18584530756.94
+      },
+      {
+        "year": 2024,
+        "month": 5,
+        "month_label": "Mayo",
+        "total_ventas": 19104310879.7
+      },
+      {
+        "year": 2024,
+        "month": 6,
+        "month_label": "Junio",
+        "total_ventas": 24866281705.65
+      },
+      {
+        "year": 2024,
+        "month": 7,
+        "month_label": "Julio",
+        "total_ventas": 18871022492.28
+      },
+      {
+        "year": 2024,
+        "month": 8,
+        "month_label": "Agosto",
+        "total_ventas": 19202071357.37
+      },
+      {
+        "year": 2024,
+        "month": 9,
+        "month_label": "Septiembre",
+        "total_ventas": 18660798499.67
+      },
+      {
+        "year": 2024,
+        "month": 10,
+        "month_label": "Octubre",
+        "total_ventas": 19680231321.92
+      },
+      {
+        "year": 2024,
+        "month": 11,
+        "month_label": "Noviembre",
+        "total_ventas": 19831194193.03
+      },
+      {
+        "year": 2024,
+        "month": 12,
+        "month_label": "Diciembre",
+        "total_ventas": 31258071617.08
+      }
+    ],
+    "combined": [
+      {
+        "month": 1,
+        "month_label": "Enero",
+        "total_ventas": 33507945880.43
+      },
+      {
+        "month": 2,
+        "month_label": "Febrero",
+        "total_ventas": 33231917102.61
+      },
+      {
+        "month": 3,
+        "month_label": "Marzo",
+        "total_ventas": 38102978754.73
+      },
+      {
+        "month": 4,
+        "month_label": "Abril",
+        "total_ventas": 35990056418.99
+      },
+      {
+        "month": 5,
+        "month_label": "Mayo",
+        "total_ventas": 37721604371.65
+      },
+      {
+        "month": 6,
+        "month_label": "Junio",
+        "total_ventas": 51624556883.71
+      },
+      {
+        "month": 7,
+        "month_label": "Julio",
+        "total_ventas": 36409241059.86
+      },
+      {
+        "month": 8,
+        "month_label": "Agosto",
+        "total_ventas": 37666908933.69
+      },
+      {
+        "month": 9,
+        "month_label": "Septiembre",
+        "total_ventas": 37062162837.61
+      },
+      {
+        "month": 10,
+        "month_label": "Octubre",
+        "total_ventas": 38096957157.01
+      },
+      {
+        "month": 11,
+        "month_label": "Noviembre",
+        "total_ventas": 38654517811.72
+      },
+      {
+        "month": 12,
+        "month_label": "Diciembre",
+        "total_ventas": 63290362301.08
+      }
+    ]
+  },
+  "sectors": {
+    "positive": {
+      "sector": "No clasificado / Otros",
+      "ventas_2023": 16053786.63,
+      "ventas_2024": 18221127.74,
+      "pct_change": 13.500498,
+      "abs_change": 2167341.11
+    },
+    "negative": {
+      "sector": "Organizaciones y órganos extraterritoriales",
+      "ventas_2023": 3476048.41,
+      "ventas_2024": 2931311.64,
+      "pct_change": -15.67115,
+      "abs_change": -544736.77
+    },
+    "ranking": [
+      {
+        "sector": "No clasificado / Otros",
+        "ventas_2023": 16053786.63,
+        "ventas_2024": 18221127.74,
+        "pct_change": 13.500498,
+        "abs_change": 2167341.11
+      },
+      {
+        "sector": "Agricultura, ganadería, silvicultura y pesca",
+        "ventas_2023": 19760493471.48,
+        "ventas_2024": 22191133272.54,
+        "pct_change": 12.300502,
+        "abs_change": 2430639801.06
+      },
+      {
+        "sector": "Distribución de agua, alcantarillado y gestión de desechos",
+        "ventas_2023": 1070268884.52,
+        "ventas_2024": 1147563165.45,
+        "pct_change": 7.22195,
+        "abs_change": 77294280.93
+      },
+      {
+        "sector": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "ventas_2023": 4076398079.57,
+        "ventas_2024": 4303963636.31,
+        "pct_change": 5.582516,
+        "abs_change": 227565556.74
+      },
+      {
+        "sector": "Actividades financieras y de seguros",
+        "ventas_2023": 6475692758.6,
+        "ventas_2024": 6816688813.6,
+        "pct_change": 5.265785,
+        "abs_change": 340996055.0
+      },
+      {
+        "sector": "Enseñanza",
+        "ventas_2023": 2713937348.16,
+        "ventas_2024": 2837282837.18,
+        "pct_change": 4.544891,
+        "abs_change": 123345489.02
+      },
+      {
+        "sector": "Comercio al por mayor y al por menor; reparación de vehículos",
+        "ventas_2023": 106574743112.35,
+        "ventas_2024": 109536768942.82,
+        "pct_change": 2.779294,
+        "abs_change": 2962025830.47
+      },
+      {
+        "sector": "Servicios administrativos y de apoyo",
+        "ventas_2023": 4552200993.33,
+        "ventas_2024": 4669242312.85,
+        "pct_change": 2.571093,
+        "abs_change": 117041319.52
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "ventas_2023": 1039889993.95,
+        "ventas_2024": 1062506081.56,
+        "pct_change": 2.174854,
+        "abs_change": 22616087.61
+      },
+      {
+        "sector": "Actividades inmobiliarias",
+        "ventas_2023": 3088308766.36,
+        "ventas_2024": 3133957247.59,
+        "pct_change": 1.478106,
+        "abs_change": 45648481.23
+      },
+      {
+        "sector": "Otras actividades de servicios",
+        "ventas_2023": 2890675318.18,
+        "ventas_2024": 2919728701.8,
+        "pct_change": 1.005073,
+        "abs_change": 29053383.62
+      },
+      {
+        "sector": "Explotación de minas y canteras",
+        "ventas_2023": 8334998310.48,
+        "ventas_2024": 8307349544.75,
+        "pct_change": -0.331719,
+        "abs_change": -27648765.73
+      },
+      {
+        "sector": "Alojamiento y servicio de comidas",
+        "ventas_2023": 3357181508.1,
+        "ventas_2024": 3345622052.74,
+        "pct_change": -0.34432,
+        "abs_change": -11559455.36
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "ventas_2023": 12358240485.13,
+        "ventas_2024": 12186774524.19,
+        "pct_change": -1.387463,
+        "abs_change": -171465960.94
+      },
+      {
+        "sector": "Artes, entretenimiento y recreación",
+        "ventas_2023": 585968335.75,
+        "ventas_2024": 577076714.29,
+        "pct_change": -1.517424,
+        "abs_change": -8891621.46
+      },
+      {
+        "sector": "Actividades profesionales, científicas y técnicas",
+        "ventas_2023": 9586896494.51,
+        "ventas_2024": 9430172178.04,
+        "pct_change": -1.634776,
+        "abs_change": -156724316.47
+      },
+      {
+        "sector": "Industrias manufactureras",
+        "ventas_2023": 35362636041.9,
+        "ventas_2024": 34716910184.12,
+        "pct_change": -1.826012,
+        "abs_change": -645725857.78
+      },
+      {
+        "sector": "Construcción",
+        "ventas_2023": 6073687861.96,
+        "ventas_2024": 5944183886.42,
+        "pct_change": -2.132213,
+        "abs_change": -129503975.54
+      },
+      {
+        "sector": "Información y comunicación",
+        "ventas_2023": 5214093931.78,
+        "ventas_2024": 5098746622.57,
+        "pct_change": -2.212222,
+        "abs_change": -115347309.21
+      },
+      {
+        "sector": "Actividades de los hogares como empleadores",
+        "ventas_2023": 13973204.67,
+        "ventas_2024": 13308120.2,
+        "pct_change": -4.759713,
+        "abs_change": -665084.47
+      },
+      {
+        "sector": "Salud humana y asistencia social",
+        "ventas_2023": 5220925844.7,
+        "ventas_2024": 4728337654.17,
+        "pct_change": -9.434882,
+        "abs_change": -492588190.53
+      },
+      {
+        "sector": "Organizaciones y órganos extraterritoriales",
+        "ventas_2023": 3476048.41,
+        "ventas_2024": 2931311.64,
+        "pct_change": -15.67115,
+        "abs_change": -544736.77
+      }
+    ]
+  },
+  "provinces": {
+    "ranking": [
+      {
+        "provincia": "PICHINCHA",
+        "total_ventas": 186488494695.74,
+        "share": 38.742064
+      },
+      {
+        "provincia": "GUAYAS",
+        "total_ventas": 168681952058.96,
+        "share": 35.042843
+      },
+      {
+        "provincia": "MANABI",
+        "total_ventas": 20662993917.53,
+        "share": 4.292635
+      },
+      {
+        "provincia": "AZUAY",
+        "total_ventas": 18892304447.56,
+        "share": 3.924783
+      },
+      {
+        "provincia": "EL ORO",
+        "total_ventas": 14755564494.94,
+        "share": 3.065396
+      },
+      {
+        "provincia": "TUNGURAHUA",
+        "total_ventas": 10332350621.63,
+        "share": 2.146495
+      },
+      {
+        "provincia": "LOS RIOS",
+        "total_ventas": 9793834519.16,
+        "share": 2.034621
+      },
+      {
+        "provincia": "SANTO DOMINGO DE LOS TSACHILAS",
+        "total_ventas": 7948928397.64,
+        "share": 1.651351
+      },
+      {
+        "provincia": "ZAMORA CHINCHIPE",
+        "total_ventas": 6092126414.73,
+        "share": 1.265609
+      },
+      {
+        "provincia": "ESMERALDAS",
+        "total_ventas": 5487935573.96,
+        "share": 1.140092
+      },
+      {
+        "provincia": "COTOPAXI",
+        "total_ventas": 4776118412.52,
+        "share": 0.992215
+      },
+      {
+        "provincia": "IMBABURA",
+        "total_ventas": 4365805332.73,
+        "share": 0.906975
+      },
+      {
+        "provincia": "LOJA",
+        "total_ventas": 4330328620.62,
+        "share": 0.899604
+      },
+      {
+        "provincia": "CHIMBORAZO",
+        "total_ventas": 3588037630.19,
+        "share": 0.745397
+      },
+      {
+        "provincia": "SANTA ELENA",
+        "total_ventas": 2950232645.18,
+        "share": 0.612896
+      },
+      {
+        "provincia": "ORELLANA",
+        "total_ventas": 2328875499.5,
+        "share": 0.483812
+      },
+      {
+        "provincia": "CAÑAR",
+        "total_ventas": 2190945620.59,
+        "share": 0.455158
+      },
+      {
+        "provincia": "SUCUMBIOS",
+        "total_ventas": 1877174374.04,
+        "share": 0.389974
+      },
+      {
+        "provincia": "CARCHI",
+        "total_ventas": 1485233365.18,
+        "share": 0.30855
+      },
+      {
+        "provincia": "GALAPAGOS",
+        "total_ventas": 1309579563.37,
+        "share": 0.272059
+      },
+      {
+        "provincia": "BOLIVAR",
+        "total_ventas": 886560373.12,
+        "share": 0.184179
+      },
+      {
+        "provincia": "MORONA SANTIAGO",
+        "total_ventas": 866397836.76,
+        "share": 0.17999
+      },
+      {
+        "provincia": "PASTAZA",
+        "total_ventas": 665780984.65,
+        "share": 0.138313
+      },
+      {
+        "provincia": "NAPO",
+        "total_ventas": 601654053.79,
+        "share": 0.124991
+      },
+      {
+        "provincia": "ND",
+        "total_ventas": 59.0,
+        "share": 0.0
+      }
+    ],
+    "top3_share": 78.077542,
+    "top5_share": 85.067721
+  },
+  "methodology": {
+    "decimal": ",",
+    "separator": "|",
+    "encoding": "latin-1",
+    "sector_mapping": {
+      "A": "Agricultura, ganadería, silvicultura y pesca",
+      "B": "Explotación de minas y canteras",
+      "C": "Industrias manufactureras",
+      "D": "Suministro de electricidad, gas, vapor y aire acondicionado",
+      "E": "Distribución de agua, alcantarillado y gestión de desechos",
+      "F": "Construcción",
+      "G": "Comercio al por mayor y al por menor; reparación de vehículos",
+      "H": "Transporte y almacenamiento",
+      "I": "Alojamiento y servicio de comidas",
+      "J": "Información y comunicación",
+      "K": "Actividades financieras y de seguros",
+      "L": "Actividades inmobiliarias",
+      "M": "Actividades profesionales, científicas y técnicas",
+      "N": "Servicios administrativos y de apoyo",
+      "O": "Administración pública y defensa",
+      "P": "Enseñanza",
+      "Q": "Salud humana y asistencia social",
+      "R": "Artes, entretenimiento y recreación",
+      "S": "Otras actividades de servicios",
+      "T": "Actividades de los hogares como empleadores",
+      "U": "Organizaciones y órganos extraterritoriales"
+    }
+  }
+}
